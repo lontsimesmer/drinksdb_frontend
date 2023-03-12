@@ -1,0 +1,34 @@
+.NavBar {
+  background: purple;
+}
+
+.NavBar__attributes {
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+  justify-content: center;
+  padding: 30px;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.Left {
+  left: 10%;
+  position: absolute;
+  top: 2%;
+}
+
+.Right {
+  display: flex;
+  gap: 50px;
+  right: 5%;
+  position: absolute;
+  top: 2%;
+}
+
+span {
+  border-right: 1px solid #ccc;
+}

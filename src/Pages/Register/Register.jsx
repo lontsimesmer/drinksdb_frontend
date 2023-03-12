@@ -1,6 +1,7 @@
 import React from 'react';
 /* import { useNavigate } from 'react-router-dom'; */
-import { register } from '../api/auth';
+import { register } from '../../api/auth';
+import './Register.css';
 
 export default function RegisterPage() {
   /*   const [isLoading, setIsLoading] = useState(false); */
