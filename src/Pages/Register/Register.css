@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
 
+.Container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 form {
   background: #f0fff0;
   border: 1px solid #eee;
@@ -7,11 +15,9 @@ form {
   flex-direction: column;
   font-family: 'Podkova', serif;
   gap: 20px;
-  justify-content: center;
   margin: auto;
-  max-width: 400px;
-  min-height: 50vh;
-  padding: 30px;
+  max-width: 350px;
+  padding: 20px;
 }
 
 h1 {

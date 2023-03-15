@@ -5,7 +5,7 @@
 .NavBar__attributes {
   display: flex;
   gap: 10px;
-  font-size: 30px;
+  font-size: 28px;
   justify-content: center;
   padding: 30px;
 }
@@ -22,13 +22,29 @@ a {
 }
 
 .Right {
+  border-bottom: 1px solid #ccc;
   display: flex;
-  gap: 50px;
-  right: 5%;
+  font-size: 20px;
   position: absolute;
+  right: 5%;
   top: 2%;
 }
 
-span {
+.login {
   border-right: 1px solid #ccc;
+  padding: 5px 20px 10px 20px;
+}
+
+.login:hover {
+  background: #ccc;
+  color: #fff;
+}
+
+.signup {
+  padding: 5px 20px;
+}
+
+.signup:hover {
+  background: #ccc;
+  color: #000;
 }
