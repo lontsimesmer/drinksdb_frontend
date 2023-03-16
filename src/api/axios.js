@@ -1,12 +1,12 @@
-/* eslint-disable import/prefer-default-export */
 import axios from 'axios';
-/* import { readToken } from '../utils'; */
-const API_BASE_URL = 'http://localhost:3000/';
+import { readToken } from '../utils';
+
+const { API_BASE_URL } = '../constants';
 
 const httpClient = axios.create({
   baseURL: API_BASE_URL,
 });
-/* 
+
 httpClient.interceptors.request.use(
   function (config) {
     // Do something before request is sent
@@ -18,5 +18,5 @@ httpClient.interceptors.request.use(
     return Promise.reject(error);
   }
 );
- */
+
 export { httpClient };

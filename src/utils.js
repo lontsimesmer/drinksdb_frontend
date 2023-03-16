@@ -1,9 +1,9 @@
 const TOKEN_LOCATION = 'token';
 
-export default function saveToken(token) {
+export function saveToken(token) {
   localStorage.setItem(TOKEN_LOCATION, token);
 }
 
-export default function readToken() {
+export function readToken() {
   return localStorage.getItem(TOKEN_LOCATION);
 }

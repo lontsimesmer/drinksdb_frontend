@@ -6,7 +6,7 @@ export default function DisplayCards() {
     <div className={Styles.Display__Cards}>
       <div className={Styles.Side__Bar}>
         <h3>Categories</h3>
-        <div className="">
+        {/* <div className="">
           <input type="checkbox" value="drink" name="water" className="" />
           <label htmlFor="water">Water</label>
           <br />
@@ -26,7 +26,7 @@ export default function DisplayCards() {
         <div className="">
           <label htmlFor="coffee">Coffee</label>
           <input type="checkbox" value="drink" name="coffee" className="" />
-        </div>
+        </div> */}
         <h3>Drinks</h3>
         <h3>Glasses</h3>
         <h3>Ingredients</h3>

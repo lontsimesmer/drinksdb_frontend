@@ -18,6 +18,11 @@ h1 {
   text-align: center;
 }
 
+.error {
+  font-size: 16px;
+  color: red;
+}
+
 input {
   box-sizing: border-box;
   font-family: 'Podkova', serif;
