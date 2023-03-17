@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { httpClient } from './axios';
 
 export function register(user) {

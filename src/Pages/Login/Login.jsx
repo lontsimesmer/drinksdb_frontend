@@ -10,7 +10,7 @@ export default function LoginPage() {
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
-    e.preventDefault();
+    event.preventDefault();
     const element = new FormData(event.currentTarget);
     const user = Object.fromEntries(element.entries());
 
@@ -21,7 +21,6 @@ export default function LoginPage() {
       saveToken(data.token);
       navigate('/dashboard');
     } catch (e) {
-      console.log(e);
       if (e.response.status === 401) {
         setError('Invalid username or password');
       }
