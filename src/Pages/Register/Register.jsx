@@ -11,7 +11,6 @@ export default function RegisterPage() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const values = Object.fromEntries(data.entries());
-    console.log(values);
     await register(values);
     setIsLoading(true);
     navigate('/login');
