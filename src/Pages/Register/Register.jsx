@@ -10,6 +10,7 @@ export default function RegisterPage() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+    console.log(data);
     const values = Object.fromEntries(data.entries());
     await register(values);
     setIsLoading(true);

@@ -19,6 +19,7 @@ export default function LoginPage() {
     try {
       const { data } = await login(user.emailAddress, user.password);
       saveToken(data.token);
+      console.log(user.emailAdress);
       navigate('/dashboard');
     } catch (e) {
       if (e.response.status === 401) {

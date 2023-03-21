@@ -1,8 +1,16 @@
-.NavBar {
-  background: purple;
+.HomePage {
+  margin: 0;
+  padding: 0;
 }
 
-.NavBar__attributes {
+.NavBar {
+  background: purple;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+.attributes {
   display: flex;
   gap: 10px;
   font-size: 28px;
@@ -47,4 +55,38 @@ a {
 .signup:hover {
   background: #ccc;
   color: #000;
+}
+
+.Display {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.Side_Bar {
+  background: violet;
+  color: #fff;
+  left: 0;
+  position: relative;
+  width: 25%;
+}
+
+.Container {
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  position: relative;
+}
+
+input {
+  cursor: pointer;
+  width: 20px;
+}
+
+.checkbox {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
